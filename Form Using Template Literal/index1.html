@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+   
+    <link rel="icon" href="images/busicon.png" type="image.gif">
+    <link rel="stylesheet" href="style.css">
+    
+   </head>
+  <body>
+      <header>
+          <h1 id=heading>Booking</h1>
+      </header>
+      
+     
+      <div class="box">
+          <form id="form"  action="#" onsubmit="res()">
+              <div class="template" >
+              <label>Name:<input type="text" placeholder="Name" id="name"></label>
+              <div class="error" id='nameErr'></div>
+            </div>
+            <div class="template">
+              <label>DOB</label>
+         <input type="text" placeholder="year/mm/dd" id="dob">
+         <div class="error" id='dobErr'></div>
+          </div>
+          <div class="template">
+            <label>Mobile</label>
+        <input type="text" placeholder="MobileNo" id="mobile">
+        <div class="error" id='mobileErr'></div>
+        </div>
+            <div class="template" >
+                <label>Email:<input type="text" placeholder="name@domain.com" id='email'></label>
+                <div class="error" id='emailErr'></div>
+              </div>
+              <div class="template">
+                <div class='selectType' id='select'>
+                <label>
+                    <input type="radio" name="traveltype"  id='onewaytraveltype' value="oneway" onclick="onewayTrip()" >
+                    Oneway</label>
+               <label><input type="radio" name="traveltype" id='roundwaytraveltype' value="roundway" onclick="roundwayTrip()">Roundway</label>
+                    
+               </div>
+               <div class="error" id='radioErr'></div>
+            </div>
+            <div id='add' class="template"></div>
+            <div class="template visible">
+              
+              <input type="submit" id="submit" value="Book Ticket"/>
+          </div>
+
+          </form>
+        </div>
+       
+        <p id='result'></p>
+  
+  <script src="script.js"></script>
+   </body>
+   </html>

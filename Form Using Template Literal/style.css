@@ -1,0 +1,168 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("back-img.jpg");
+  background-size: cover;
+}
+header {
+  line-height: 50px;
+}
+#heading {
+  color: chartreuse;
+  text-align: center;
+  margin: auto;
+  font-style: italic;
+  font-family: Georgia;
+}
+#form {
+  margin: 0 auto;
+  width: 300px;
+  position: relative;
+  background-color: thistle;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 40px 40px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.template {
+  padding-bottom: 5px;
+}
+label {
+  color: blueviolet;
+  padding: 2px;
+}
+
+input,
+select {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.selectType input {
+  display: inline;
+  width: 10px;
+}
+#submit {
+  font-size: 20px;
+  font-weight: bold;
+  background: #006dcc;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-size: 90%;
+}
+#result {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: cadetblue;
+}
+@media (min-width: 100px) and (max-width: 480px) {
+  header {
+    display: flex;
+    line-height: 50px;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 350px;
+  }
+  #heading {
+    flex: 1;
+    color: violet;
+  }
+} */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("back-img.jpg");
+  background-size: cover;
+}
+header {
+  line-height: 50px;
+}
+#heading {
+  color: chartreuse;
+  text-align: center;
+  margin: auto;
+  font-style: italic;
+  font-family: Georgia;
+}
+#form {
+  margin: 0 auto;
+  width: 300px;
+  position: relative;
+  background-color: thistle;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 40px 40px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.template {
+  padding-bottom: 5px;
+}
+label {
+  color: blueviolet;
+  padding: 2px;
+}
+
+input,
+select {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.selectType input {
+  display: inline;
+  width: 10px;
+}
+#submit {
+  font-size: 20px;
+  font-weight: bold;
+  background: #006dcc;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-size: 90%;
+}
+#result {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: cadetblue;
+}
+@media (min-width: 100px) and (max-width: 480px) {
+  header {
+    display: flex;
+    line-height: 50px;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 350px;
+  }
+  #heading {
+    flex: 1;
+    color: violet;
+  }
+}
